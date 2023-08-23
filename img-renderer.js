@@ -1,3 +1,6 @@
+const imageFiles = getImages();
+renderImages();
+
 function getImages() {
     const files = [];
     for (let i = 0; i < 12; i++) {
@@ -5,8 +8,6 @@ function getImages() {
     }
     return files;
 }
-
-const imageFiles = getImages();
 
 function renderImages() {
     const imageContainer1 = document.getElementById('imgContainer1');
@@ -27,6 +28,3 @@ function renderImages() {
         imageContainer2.appendChild(imgElement);
     }
 }
-
-// Call the renderImages function when the page loads
-document.addEventListener('DOMContentLoaded', renderImages);
