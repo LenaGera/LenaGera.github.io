@@ -1,5 +1,6 @@
 const imageFiles = getImages();
 renderImages();
+console.log("fuck")
 
 function getImages() {
     const files = [];
