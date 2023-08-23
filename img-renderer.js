@@ -1,7 +1,7 @@
 function getImages() {
     const files = [];
     for (let i = 0; i < 12; i++) {
-        files.push(`images/img${i}.jpg`);
+        files.push(`./images/img${i}.jpg`);
     }
     return files;
 }
